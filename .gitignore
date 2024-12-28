@@ -1,0 +1,50 @@
+# Laravel specific files
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.*.backup
+
+# Laravel specific generated files
+/public/storage
+/public/hot
+/public/*.key
+
+# Ignoring compiled views
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Ignoring log files
+/storage/logs/*.log
+
+# Ignoring Laravel Mix file
+/public/mix-manifest.json
+/public/css/*.map
+/public/js/*.map
+
+# Ignoring IDE and editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignoring OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignoring npm and Yarn lock files (if not committed intentionally)
+package-lock.json
+yarn.lock
+
+# Ignoring PHPUnit results
+phpunit.result.cache
+
+# Ignoring cache files
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
+# Ignoring Composer lock file (optional)
+composer.lock
